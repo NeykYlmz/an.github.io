@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+#menu{
+    height: 80px;
+    padding: 20 20px;
+}
+
+#logo{
+    height: 30px;
+    font-size: 30px;
+    line-height: 80px;
+    color:#4000b6;
+    float: left;
+}
+
+nav{
+    float: right;
+    line-height: 80px;
+}
+
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color:#000000;
+}
+nav a:hover{
+    border-bottom: 2px solid
+    #ffffff;
+}
+
+nav a :visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: 0003666;
+}
+
+.ikon{
+    margin-right: 7px;
+    font-size: 16px;
+}
+
+#anasayfa{
+    background-color: pink;
+    height: 600px;
+    background-image: url("../img/9d0874f403da505399e4760542a8d216.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#black{
+    height: 600px;
+    background-color: #fff1f1;
+    opacity: 0.5;
+}
+
+#içerik{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50% -50%);
+    color: #ca577d;
+    font-size: 20px;
+}
+
+
+.container{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+#aysil{
+    background-color: #ffffff;
+    padding:50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#neyk{
+    background-color: rgb(255, 234, 238);
+    padding:50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 55px;
+    color: #ff7aa7;
+    text-align: center;
+    font-weight: 600;
+}
+
+#container{
+    width:100%;
+    height: 200px;
+    margin:auto;
+    text-align: center;
+}
+#sol{
+    float: left;
+    border-right:3px solid #ff7aa7;
+    color: #ff7aa7;
+    font-size: 30px;
+    width:400px;
+}
+
+#h5sol, #sag{
+    margin:0;
+    padding:0;
+    margin-top: 20px;
+}
+
+span{
+    font-size: 50px;
+    margin-right: 7px;
+    line-height: 42px;
+    color: #ff7aa7;
+    font-weight: 600;
+    float: left;
+}
+
+#sag{
+    float:right;
+    width:750px;
+    color: #ff7aa7;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 100;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.mt100{
+    margin-top:100px;
+}
+#pson{
+    color: #999;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top:38px;
+    font-weight: 100;
+}
+
+#biz{
+    background-color: #ffc0cb;
+    color: white;
+    padding: 50px;
+    height: 800px;
+    text-align: center;
+}
+#bizh3{
+    color:white;
+}
+.sutun-sol{
+    width: 30%;
+    float: left;
+    padding: 50px;
+}
+.sutun-orta{
+    width: 30%;
+    float: left;
+    padding: 50px;
+}
+.sutun-sag{
+    width: 30%;
+    float: right;
+    padding: 50px;
+}
+.oval{
+    border-radius:50%;
+}
+
+.bizisim{
+    color:white;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.bizz{
+    color: #888;
+    font-size: 18px;
+}
+
+.social{
+    color:white;
+    border:1px solid white;
+    padding:10px;
+    width:50px;
+    border-radius:5px;
+    margin:5px 10px;
+}
+.social:hover{
+    background-color:#888;
+}
+
+#iletisim{
+    background:url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 50px;
+    height: auto;
+    text-align:center;
+}
+
+#h3iletisim{
+    color: white;
+}
+
+#iletisimopak{
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    height: 550px;
+}
+
+#formgroup{
+    width: 50%;
+    float: left;
+    height: 500px;
+}
+
+#solform{
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+
+#sagform{
+    width: 50%;
+    float: right;
+    padding-left: 5px;
+}
+
+.form-control{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color:#495057;
+    background-color:white;
+    margin:10px;
+    border-radius: 5px;
+    border: 1px solid#ced4da;
+}
+
+#mapgroup{
+    width: 50%;
+    float: right;
+    height: 500px;
+}
+
+textarea{
+    font-family: Arial;
+}
+input [type="submit"]{
+    cursor:pointer;
+    background-color:#445c6e;
+    font-size:18px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color:white;
+    border:2px solid white;
+    border-radius: 5px;
+    margin-left:10px;
+    margin-top: 10px;
+}
+
+#up{
+    padding: 7px 0px;
+}
