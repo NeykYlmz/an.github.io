@@ -83,6 +83,7 @@ nav a :visited{
 }
 
 #aysil{
+    width: 100%;
     background-color: #ffffff;
     padding:50px;
     text-align: center;
@@ -91,6 +92,7 @@ nav a :visited{
 }
 
 #neyk{
+    width: 100%;
     background-color: rgb(255, 234, 238);
     padding:50px;
     text-align: center;
